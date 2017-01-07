@@ -11,7 +11,7 @@ h5 {font-family: constantia; color: #000000; font-weight: bold; font-size: 16px;
 a:visited {color: #424242; text-decoration: none;}   /* visted link stylings */
 a:link {color: #000000; text-decoration: none;}    /* visible link stylings */
 p {font-family: constantia; color: #757575;}    /* text stylings */
-body {background-color: #B2EBF2; align-items: center;}
+body {background-color: #B2EBF2;}
 /*Multiple use stylings*/
 
 .NavigationContainer{
@@ -168,15 +168,25 @@ body {background-color: #B2EBF2; align-items: center;}
 
 /*index.html styling*/
 
+.CenteringBox{
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
 .PictureBox{
   display: flex;
   flex-shrink: 1;
   flex-grow: 1;
+  width: 50%;
 }
 .Textbox{
   display:flex;
   align-items: center;
   justify-content: space-around;
+  width: 50%;
 }
 
 /*bio.html stylings*/
