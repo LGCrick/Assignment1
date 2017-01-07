@@ -11,7 +11,7 @@ h5 {font-family: constantia; color: #000000; font-weight: bold; font-size: 16px;
 a:visited {color: #424242; text-decoration: none;}   /* visted link stylings */
 a:link {color: #000000; text-decoration: none;}    /* visible link stylings */
 p {font-family: constantia; color: #757575;}    /* text stylings */
-body {background-color: #B2EBF2;}
+body {background-color: #B2EBF2; align-items: center;}
 /*Multiple use stylings*/
 
 .NavigationContainer{
