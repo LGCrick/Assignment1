@@ -1,1 +1,333 @@
 /* Leone Graham Crick 1642834 */
+
+/*house stylings*/
+
+h1 {font-family: constantia; color: black;}
+h2 {font-famil: constantia; color: black; font-size: 120%; text-decoration: underline;}
+h3 {font-family: constantia; color: black;}
+h3:hover {font-family: constantia; margin-top: 25px; margin-bottom: 25px; font-size: 150%;}
+h6 {font-family: constantia; color: black; font-size: 14px;}
+h5 {font-family: constantia; color: black; font-weight: bold; font-size: 16px;}
+a:visited {color: black; text-decoration: none;}
+a:link {color: black; text-decoration: none;}
+p {font-family: constantia; color: grey;}
+
+/*Multiple use stylings*/
+
+.NavigationContainer{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-around;
+}
+
+/*index.html styling*/
+.PictureBox{
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.Textbox{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*bio.html stylings*/
+
+.TitleContainer {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+}
+.PageContainer{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+}
+.ParagraphContainerLeft {
+  display: flex;
+  max-width: 600px;
+  justify-content: flex-start;
+  order: 1;
+  align-self: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.ParagraphContainerCenter {
+  display: flex;
+  max-width: 600px;
+  justify-content: center;
+  order: 2;
+  align-self: center;
+  flex-grow: 1;
+}
+.ParagraphContainerRight {
+  display: flex;
+  max-width: 600px;
+  justify-content: flex-end;
+  Order: 3;
+  align-self: flex-end;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+@media only screen and (min-width:2000px){
+  .PageContainer{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ParagraphContainerLeft {
+    display: flex;
+    max-width: 600px;
+    height: :100%;
+    justify-content: flex-start;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  .ParagraphContainerCenter {
+    display: flex;
+    max-width: 600px;
+    height: :100%;
+    justify-content: flex-start;
+    order: 1;
+    align-self: flex-start;r;
+    flex-grow: 1;
+  }
+  .ParagraphContainerRight {
+    display: flex;
+    max-width: 600px;
+    height: :100%;
+    justify-content: flex-start;
+    Order: 1;
+    align-self: flex-start;;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .PageContainer{
+    display:flex;
+    width:100%;
+    height:80%;
+    flex-direction: column;
+  }
+  .ParagraphContainerLeft {
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-start;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  .ParagraphContainerCenter {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    order: 2;
+    align-self: center;
+    flex-grow: 1;
+  }
+  .ParagraphContainerRight {
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+    Order: 3;
+    align-self: flex-end;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+/* cv.html stylings*/
+
+.CvMainPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.CvPersonalInfo{
+  display: flex;
+  height: 250px;
+  width: 250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+}
+.CvContactDetails{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvPersonalStatement{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvGCSEEducation{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+.CvALevelEducation{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvHobbies{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvWorkExperience1{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvWorkExperience2{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvInterests{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvPracticalSkills{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvAcomplishments{
+  display:flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvReferences{
+  display: flex;
+  height: 250px;
+  width:250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvElement{
+  display: flex;
+  height: 40px;
+  width: 250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.CvElementLarge{
+  display: flex;
+  height: 250px;
+  width: 250px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/* contact.html stylings*/
+
+.NavigationContactContainer{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-around;
+}
+.HomeButtonContainer{
+  display: flex;
+  order: 1;
+  width: 33%;
+  justify-content: center;
+}
+.CvButtonContainer{
+  display: flex;
+  order: 2;
+  width: 33%;
+  justify-content: center;
+}
+.BioButtonContainer{
+  display: flex;
+  order: 3;
+  width: 33%;
+  justify-content: center;
+}
+.ContactElement{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.SubmitElement{
+  display:flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 500px) {
+  .NavigationContactContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .ContactElement{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .SubmitElement{
+    display:flex;
+    justify-content: flex-end;
+  }
+  .HomeButtonContainer{
+    display: flex;
+    order: 1;
+    width: 100%;
+    justify-content: center;
+  }
+  .CvButtonContainer{
+    display: flex;
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+  .BioButtonContainer{
+    display: flex;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+}
